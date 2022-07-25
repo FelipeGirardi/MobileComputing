@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gyroscopeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Gyroscope"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/gyroscopeX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gyroscopeHeader"
+        android:layout_alignLeft="@id/gyroscopeHeader"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:text="X"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gyroscopeY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gyroscopeX"
+        android:layout_alignLeft="@id/gyroscopeHeader"
+        android:layout_marginLeft="10sp"
+        android:text="Y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gyroscopeZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gyroscopeY"
+        android:layout_alignLeft="@id/gyroscopeHeader"
+        android:layout_marginLeft="10sp"
+        android:text="Z"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gyroscopeValueX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/gyroscopeX"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/gyroscopeX"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gyroscopeValueY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gyroscopeValueX"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/gyroscopeY"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/gyroscopeValueZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gyroscopeY"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/gyroscopeZ"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accelHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gyroscopeZ"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Accelerometer"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/accelValueX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/accelX"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/accelX"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accelValueY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelValueX"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/accelY"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accelValueZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelY"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/accelZ"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accelY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelX"
+        android:layout_alignLeft="@id/accelHeader"
+        android:layout_marginLeft="10sp"
+        android:text="Y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accelZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelY"
+        android:layout_alignLeft="@id/accelHeader"
+        android:layout_marginLeft="10sp"
+        android:text="Z"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accelX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelHeader"
+        android:layout_alignLeft="@id/accelHeader"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:text="X"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/stepCountHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelZ"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Step Counter"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/stepCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stepCountHeader"
+        android:layout_alignLeft="@id/stepCountHeader"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:text="Steps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/stepCountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/stepCount"
+        android:layout_marginLeft="10sp"
+        android:layout_toRightOf="@id/stepCount"
+        android:text="0"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+digraph D {
+
+    edge [arrowhead="none"];
+
+    152 [style=filled, fillcolor="lightblue"]
+
+    197 -> 152 [label="8,91ms"]; // single-way
+    197 -> 174 [label="3,23ms"]; // 3.32ms, 3.04ms
+    197 -> 196 [label="4,98ms"]; // 7.72ms, 2.25ms
+
+    196 -> 180 [label="4,63ms"]; // 5.94ms, 3.32ms
+
+    174 -> 152 [label="8,35ms"]; // single-way
+
+}

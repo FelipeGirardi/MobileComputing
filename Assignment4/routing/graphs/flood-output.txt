@@ -1,0 +1,14 @@
+[129.69.210.178] message very important information from 192.168.210.196:5004 with 5.94ms latency
+[129.69.210.178] message very important information from 192.168.210.180:5004 with 0.97ms latency
+[129.69.210.196] message very important information from 192.168.210.197:5004 with 7.72ms latency
+[129.69.210.196] message very important information from 192.168.210.196:5004 with 0.69ms latency
+[129.69.210.196] message very important information from 192.168.210.180:5004 with 3.32ms latency
+[129.69.210.152] message very important information from 129.69.185.192:54994 with 2380.94ms latency
+[129.69.210.152] message very important information from 192.168.210.152:5004 with 0.62ms latency
+[129.69.210.197] message very important information from 192.168.210.152:5004 with 8.91ms latency
+[129.69.210.197] message very important information from 192.168.210.197:5004 with 0.72ms latency
+[129.69.210.197] message very important information from 192.168.210.174:5004 with 3.04ms latency
+[129.69.210.197] message very important information from 192.168.210.196:5004 with 2.25ms latency
+[129.69.210.174] message very important information from 192.168.210.152:5004 with 8.35ms latency
+[129.69.210.174] message very important information from 192.168.210.174:5004 with 0.60ms latency
+[129.69.210.174] message very important information from 192.168.210.197:5004 with 3.41ms latency
